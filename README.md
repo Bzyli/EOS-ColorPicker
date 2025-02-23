@@ -1,7 +1,7 @@
 # EOS Busking ColorPicker
 An interactive ETC EOS busking color picker.
 
-# Waring :
+# Warning :
 At the moment, you need to create your own "go" macro button on your magic sheet
 The go smooth time does not work yet. I'm trying to fix it
 
