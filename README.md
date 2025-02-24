@@ -3,8 +3,6 @@ An interactive ETC EOS busking color picker.
 
 # Warning :
 At the moment, you need to create your own "go" macro button on your magic sheet
-The go smooth time does not work yet. I'm trying to fix it
-
 # Requirements
 - You need to run this script on a computer before using in on your EOS desk
 - You need python
