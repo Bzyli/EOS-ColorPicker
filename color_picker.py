@@ -123,9 +123,7 @@ def generate_go_macro(macro_id, main_cp, groups_nbr, colors_nbr, first_group, fi
    $$MacroMode Background
     
    $$MacroContents Clear_CmdLine <Enter>
-   $$MacroContents Manual Color Time {time} <Enter>
-   $$MacroContents Group {first_group} Thru {first_group+groups_nbr} Color_Palette {main_cp} <Enter>
-   $$MacroContents Manual Color Time 0 <Enter>
+   $$MacroContents Group {first_group} Thru {first_group+groups_nbr} Color_Palette {main_cp} Sneak Time {time}<Enter>
    $$MacroContents Chan {first_bank_first_chan} Thru {first_bank_last_chan} Recall_From {second_bank_first_chan} Thru {second_bank_last_chan} <Enter>
    $$MacroContents Chan {second_bank_first_chan} Thru {second_bank_last_chan} @ 0 <Enter>
    $$MacroContents Delete Color_Palette {main_cp} <Enter> <Enter>
